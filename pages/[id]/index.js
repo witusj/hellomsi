@@ -104,7 +104,6 @@ const Page = ({ user }) => {
       </p>
       <p>
         Jouw opdracht luidt om de eerste koppelingen te gaan leggen. Wat is de betekenis van jouw stukje voor het grotere geheel? Welke relaties met andere elementen binnen Smart Industry kun je ontdekken? Werk een Smart Industry story uit en neem die mee naar onze eerste ontmoeting.
-
       </p>
       <YouTube url={user.video} />
     </div>
