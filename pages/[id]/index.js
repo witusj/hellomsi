@@ -64,7 +64,7 @@ const Page = ({ user }) => {
 
   return (
     <div>
-      <h1>Hallo {user.Roepnaam}</h1>
+      <h1>Hallo {user.roepnaam}</h1>
       <p>
         Op woensdag 1 september 2021 gaan we van start met de Minor Smart Industry (MSI). We zijn blij dat jullie je met zo velen hebben aangemeld. Van harte welkom !
       </p>
