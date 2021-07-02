@@ -1,10 +1,36 @@
 import { YouTube } from '../../components/youtube'
 
 export const getStaticPaths = async () => {
-  const res = await fetch('https://v1.nocodeapi.com/witek/google_sheets/pgpmgCEwHppZfoeg?tabId=Hashes')
-  const data = await res.json()
+  fetch("https://spreadsheets.google.com/feeds/list/1VjgwMrwtRrzWje7k4gG01KC9tcfOW0AjT5iyPdkrDmU/1/public/values?alt=json")
+    .then(resp => resp.json())
+    .then(json => {
+      const data = [] /* this array will eventually be populated with the contents of the spreadsheet's rows */
 
-  const paths = data.data.map(user => {
+      const rows = json.feed.entry
+
+      for (const row of rows) {
+        const formattedRow = {}
+
+        for (const key in row) {
+          if (key.startsWith("gsx$")) {
+
+            /* The actual row names from your spreadsheet
+             * are formatted like "gsx$title".
+             * Therefore, we need to find keys in this object
+             * that start with "gsx$", and then strip that
+             * out to get the actual row name
+             */
+
+            formattedRow[key.replace("gsx$", "")] = row[key].$t
+
+          }
+        }
+
+        data.push(formattedRow)
+      }
+    })
+
+  const paths = data.map(user => {
     return {
       params: { id: user.id.toString() }
     }
@@ -18,9 +44,37 @@ export const getStaticPaths = async () => {
 
 export const getStaticProps = async (context) => {
   const id = context.params.id
-  const res = await fetch('https://v1.nocodeapi.com/witek/google_sheets/pgpmgCEwHppZfoeg?tabId=Hashes')
-  const data = await res.json()
-  const filtered = await data.data.find(function (item) {
+
+  fetch("https://spreadsheets.google.com/feeds/list/1VjgwMrwtRrzWje7k4gG01KC9tcfOW0AjT5iyPdkrDmU/1/public/values?alt=json")
+    .then(resp => resp.json())
+    .then(json => {
+      const data = [] /* this array will eventually be populated with the contents of the spreadsheet's rows */
+
+      const rows = json.feed.entry
+
+      for (const row of rows) {
+        const formattedRow = {}
+
+        for (const key in row) {
+          if (key.startsWith("gsx$")) {
+
+            /* The actual row names from your spreadsheet
+             * are formatted like "gsx$title".
+             * Therefore, we need to find keys in this object
+             * that start with "gsx$", and then strip that
+             * out to get the actual row name
+             */
+
+            formattedRow[key.replace("gsx$", "")] = row[key].$t
+
+          }
+        }
+
+        data.push(formattedRow)
+      }
+    })
+
+  const filtered = await data.find(function (item) {
     return item.id == id
   });
 
