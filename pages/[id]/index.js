@@ -35,7 +35,7 @@ const Page = ({ user }) => {
     <div>
       <h1>Hallo {user.Roepnaam}</h1>
       <p>
-        Op woensdag 1 september 2021 gaan we van start met de Minor Smart Industry (MSI). We zijn blij dat jullie je met zo vele hebben aangemeld. Van harte welkom !
+        Op woensdag 1 september 2021 gaan we van start met de Minor Smart Industry (MSI). We zijn blij dat jullie je met zo velen hebben aangemeld. Van harte welkom !
       </p>
       <p>
         Hieronder vind je algemene informatie en de invulling van de eerste week. De roostering van de overige weken is helaas pas na de zomervakantie bekend.
