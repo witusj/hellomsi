@@ -97,7 +97,7 @@ const Page = ({ user }) => {
       <YouTube url="v9rZOa3CUC8" />
       <hr />
       <p>
-        Je hebt nu een definitie van het begrip Smart Industry. Tijdens het traject gaan we hier gezamenlijk een persoonlijke invulling aan geven. Dit doen we door puzzelstukjes te verzamelen (kennis, indrukken, ervaringen, tests en demo's, etc.). Deze koppelen we aan elkaar en zo ontstaat ons eigen Smart Industry verhaal.
+        Je hebt nu een definitie van het begrip Smart Industry. Tijdens de minor gaan we hier gezamenlijk een persoonlijke invulling aan geven. Dit doen we door puzzelstukjes te verzamelen (kennis, indrukken, ervaringen, tests en demo's, etc.). Deze koppelen we aan elkaar en zo ontstaat ons eigen Smart Industry verhaal.
       </p>
       <p>
         Het eerst puzzelstukje vind je hieronder. Deze krijg je van ons - een cadeautje. Maar let op! Vanaf nu verwachten we dat je zelf puzzelstukjes gaat verzamelen en aan elkaar knoopt. Dit noemen we je Smart Journey. Zoals een echte puzzel heeft je Smart Journey geen begin en geen einde. Het onderstaande kan een hoekstukje zijn of het midden en je kunt kiezen om eerst de randjes te doen of juist van binnen naar buiten te werken.
