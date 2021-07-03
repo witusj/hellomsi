@@ -7,6 +7,7 @@ import Box from '@material-ui/core/Box';
 import ExtensionIcon from '@material-ui/icons/Extension';
 import BeachAccessIcon from '@material-ui/icons/BeachAccess';
 import { makeStyles } from '@material-ui/styles';
+import Link from 'next/link'
 
 
 
@@ -133,20 +134,20 @@ const Page = ({ user }) => {
               Door te werken aan het project en je voor te bereiden op en actief deel te nemen aan de trainingen, workshops, bedrijfsbezoeken, intervisies e.d. kun je aantonen dat je je ontwikkeld hebt en voldoet aan de competenties. In een smart portfolio (website) leg je je bewijzen vast. Zonder bewijs kunnen we de competenties niet aftoetsen en dus geen studiepunten verlenen.
             </li>
             <li className={classes.listitem}>
-              Moodle is de leeromgeving van de HAN. Je kunt een account aanmaken en je verdiepen in de leeromgeving van MSI (deze is nog wel onder constructie).
+              <Link href="https://bkmoodle.femplaza.nl/course/view.php?id=394" color="primary"><a>Moodle</a></Link> is de leeromgeving van de HAN. Je kunt een account aanmaken en je verdiepen in de leeromgeving van MSI (deze is nog wel onder constructie).
             </li>
             <li className={classes.listitem}>
               Je hebt een laptop nodig. Neem die altijd mee en zorg dat je de juiste software hebt geïnstalleerd (zie onderstaande instructies en gedurende het traject).
-              Voor het onderdeel Big Data dien je (gratis) software te installeren: Visual Studio Code. Instructies vind je hier.
+              Voor het onderdeel Big Data dien je (gratis) software te installeren: Visual Studio Code. Instructies vind je <Link href="https://code.visualstudio.com/" color="primary"><a>hier</a></Link>.
             </li>
             <li className={classes.listitem}>
-              Maak een account aan bij Github en stuur je usernaam door aan Witek ten Hove (witek.tenhove@han.nl).
+              Maak een account aan bij <Link href="https://github.com/" color="primary"><a>Github</a></Link> en stuur je usernaam door aan Witek ten Hove (witek.tenhove@han.nl).
             </li>
             <li className={classes.listitem}>
-              Mocht je je alvast willen verdiepen in de onderwerpen die behandeld zullen worden, lees bijvoorbeeld over IoT, VR/ AR, big data e.d. via McKinsey, HBR, forbes, gartner.com, etc. Meer over AI lees je via deze link. Maak in ieder geval de bijgevoegde opdracht.
+              Mocht je je alvast willen verdiepen in de onderwerpen die behandeld zullen worden, lees bijvoorbeeld over IoT, VR/ AR, big data e.d. via McKinsey, HBR, Forbes, Gartner, etc. Meer over AI lees je via deze <Link href="https://www.ai-cursus.nl/" color="primary"><a>link</a></Link>. Maak in ieder geval de bijgevoegde opdracht.
             </li>
             <li className={classes.listitem}>
-              Een student van een vorige lichting (Benno Schuuring) heeft op LinkedIn een alumni groep aangemaakt. Meld je hier aan.
+              Een student van een vorige lichting (Benno Schuuring) heeft op LinkedIn een alumni groep aangemaakt. Meld je <Link href="https://www.linkedin.com/groups/13661379/" color="primary"><a>hier</a></Link> aan.
             </li>
           </ol>
           <p>
@@ -160,10 +161,8 @@ const Page = ({ user }) => {
           <p>
             Tijdens onze eerste ontmoeting op 1 september gaan we samen kijken naar wat Smart Industry - of Industry 4.0 - betekent. De volgende video legt kort uit wat het is.
           </p>
-        </Typography>
-        <YouTube url="v9rZOa3CUC8" />
-        <hr />
-        <Typography variant="body1">
+          <YouTube url="v9rZOa3CUC8" />
+          <hr />
           <p>
             Je hebt nu een definitie van het begrip Smart Industry. Tijdens de minor gaan we hier gezamenlijk een persoonlijke invulling aan geven. Dit doen we door puzzelstukjes te verzamelen (kennis, indrukken, ervaringen, tests en demo's, etc.). Deze koppelen we aan elkaar en zo ontstaat ons eigen Smart Industry verhaal.
           </p>
