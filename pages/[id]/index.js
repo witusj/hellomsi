@@ -28,14 +28,12 @@ const datafetcher = async () =>
 
         data.push(formattedRow)
       }
-      console.log(data) /* do anything you want with the reformatted data here */
       return (data)
     })
 
 
 export const getStaticPaths = async () => {
   const data = await datafetcher()
-
   const paths = data.map(user => {
     return {
       params: { id: user.id.toString() }
@@ -61,7 +59,6 @@ export const getStaticProps = async (context) => {
 }
 
 const Page = ({ user }) => {
-
   return (
     <div>
       <h1>Hallo {user.roepnaam}</h1>
@@ -72,13 +69,10 @@ const Page = ({ user }) => {
         Hieronder vind je algemene informatie en de invulling van de eerste week. De roostering van de overige weken is helaas pas na de zomervakantie bekend.
       </p>
       <ol>
-
-
         <li>
           De naam van je klas is BKN-M06.
         </li>
         <li>
-
           We starten op woensdag 1 september 9.30 uur in de Meshallen, Nieuweweg 240, 6603 BV Wijchen. Neem je laptop mee. We helpen je dan ook met de installatie van de software op je computer (zie punt 10).
           Op donderdag 2 september worden er ook gedurende de hele dag workshops verzorgd, 's ochtend online en 's middags in de Meshallen (je bent wél de hele dag welkom in de Meshallen). Op vrijdagochtend 3 september is er een workshop in de Meshallen.
         </li>
@@ -106,7 +100,7 @@ const Page = ({ user }) => {
           Maak een account aan bij Github en stuur je usernaam door aan Witek ten Hove (witek.tenhove@han.nl).
         </li>
         <li>
-          Mocht je je alvast willen verdiepen in de onderwerpen die behandeld zullen worden, lees bijvoorbeeld over IoT, VR/ AR, big data e.d. via McKinsey, HBR, forbes, gartner.com, etc. Meer over AI lees je via deze link.
+          Mocht je je alvast willen verdiepen in de onderwerpen die behandeld zullen worden, lees bijvoorbeeld over IoT, VR/ AR, big data e.d. via McKinsey, HBR, forbes, gartner.com, etc. Meer over AI lees je via deze link. Maak in ieder geval de bijgevoegde opdracht.
         </li>
         <li>
           Een student van een vorige lichting (Benno Schuuring) heeft op LinkedIn een alumni groep aangemaakt. Meld je hier aan.
