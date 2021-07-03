@@ -3,9 +3,10 @@ import Container from '@material-ui/core/Container';
 import Typography from '@material-ui/core/Typography';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
-import IconButton from '@material-ui/core/IconButton';
-import MenuIcon from '@material-ui/icons/Menu';
 import ExtensionIcon from '@material-ui/icons/Extension';
+import { makeStyles } from '@material-ui/styles';
+
+
 
 const datafetcher = async () =>
   fetch("https://spreadsheets.google.com/feeds/list/1VjgwMrwtRrzWje7k4gG01KC9tcfOW0AjT5iyPdkrDmU/1/public/values?alt=json")
@@ -65,14 +66,25 @@ export const getStaticProps = async (context) => {
   }
 }
 
+const useStyles = makeStyles({
+  root: {
+    marginBottom: 30,
+    marginTop: 10,
+  },
+  appbartext: {
+    marginLeft: 30
+  }
+})
+
 const Page = ({ user }) => {
+  const classes = useStyles();
   return (
     <div>
       <Container>
-        <AppBar position="static" color="secondary">
+        <AppBar position="static" color="secondary" className={classes.root}>
           <Toolbar >
             <ExtensionIcon />
-            <Typography variant="h6">
+            <Typography variant="h4" className={classes.appbartext}>
               Welkom bij MSI
             </Typography>
           </Toolbar>
