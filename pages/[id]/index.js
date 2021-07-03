@@ -79,6 +79,9 @@ const useStyles = makeStyles({
   },
   listitem: {
     marginBottom: 10
+  },
+  mediabox: {
+    margin: 30,
   }
 })
 
@@ -154,27 +157,38 @@ const Page = ({ user }) => {
             Geniet van de zomer en we verheugen ons erop om je op 1 september in Wijchen te ontmoeten!
           </p>
         </Typography>
-        <Typography variant="h4">
-          Opdracht
-        </Typography>
-        <Typography variant="body1">
-          <p>
-            Tijdens onze eerste ontmoeting op 1 september gaan we samen kijken naar wat Smart Industry - of Industry 4.0 - betekent. De volgende video legt kort uit wat het is.
-          </p>
-          <YouTube url="v9rZOa3CUC8" />
-          <p>
-            Je hebt nu een definitie van het begrip Smart Industry. Tijdens de minor gaan we hier gezamenlijk een persoonlijke invulling aan geven. Dit doen we door puzzelstukjes te verzamelen (kennis, indrukken, ervaringen, tests en demo's, etc.) Deze koppelen we aan elkaar en zo ontstaat ons eigen Smart Industry verhaal.
-          </p>
-          <p>
-            Het eerst puzzelstukje vind je hieronder. Deze krijg je van ons - een cadeautje. Maar let op! Vanaf nu verwachten we dat je zelf puzzelstukjes gaat verzamelen en aan elkaar knoopt. Dit noemen we de Smart Journey. Zoals een echte puzzel heeft jouw Smart Journey geen begin en geen einde. Het onderstaande kan een hoekstukje zijn of het midden en je kunt kiezen om eerst de randjes te doen of juist van binnen naar buiten te werken.
-          </p>
-          <p>
-            Jouw opdracht luidt om de eerste koppelingen te gaan leggen. Wat is de betekenis van jouw stukje voor het grotere geheel? Welke relaties met andere elementen binnen Smart Industry kun je ontdekken? Werk je eerste Smart Industry story uit en neem die mee naar onze eerste ontmoeting.
-          </p>
-        </Typography>
-        <YouTube url={user.video} />
+        <Box>
+          <Typography variant="h5" className={classes.root}>
+            Opdracht
+          </Typography>
+
+          <Typography variant="body1">
+            <p>
+              Tijdens onze eerste ontmoeting op 1 september gaan we samen kijken naar wat Smart Industry - of Industry 4.0 - betekent. De volgende video legt kort uit wat het is.
+            </p>
+          </Typography>
+          <Box className={classes.mediabox}>
+            <YouTube url="v9rZOa3CUC8" />
+          </Box>
+
+          <Typography variant="body1">
+            <p>
+              Je hebt nu een definitie van het begrip Smart Industry. Tijdens de minor gaan we hier gezamenlijk een persoonlijke invulling aan geven. Dit doen we door puzzelstukjes te verzamelen (kennis, indrukken, ervaringen, tests en demo's, etc.) Deze koppelen we aan elkaar en zo ontstaat ons eigen Smart Industry verhaal.
+            </p>
+            <p>
+              Het eerst puzzelstukje vind je hieronder. Deze krijg je van ons - een cadeautje. Maar let op! Vanaf nu verwachten we dat je zelf puzzelstukjes gaat verzamelen en aan elkaar knoopt. Dit noemen we de Smart Journey. Zoals een echte puzzel heeft jouw Smart Journey geen begin en geen einde. Het onderstaande kan een hoekstukje zijn of het midden en je kunt kiezen om eerst de randjes te doen of juist van binnen naar buiten te werken.
+            </p>
+            <p>
+              Jouw opdracht luidt om de eerste koppelingen te gaan leggen. Wat is de betekenis van jouw stukje voor het grotere geheel? Welke relaties met andere elementen binnen Smart Industry kun je ontdekken? Werk je eerste Smart Industry story uit en neem die mee naar onze eerste ontmoeting.
+            </p>
+
+          </Typography>
+          <Box className={classes.mediabox}>
+            <YouTube url={user.video} />
+          </Box>
+        </Box>
       </Container>
-    </div>
+    </div >
 
   )
 }
