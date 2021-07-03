@@ -7,10 +7,6 @@ import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
 import ExtensionIcon from '@material-ui/icons/Extension';
 
-const theme = {
-  spacing: 8,
-}
-
 const datafetcher = async () =>
   fetch("https://spreadsheets.google.com/feeds/list/1VjgwMrwtRrzWje7k4gG01KC9tcfOW0AjT5iyPdkrDmU/1/public/values?alt=json")
     .then(res => res.json())
