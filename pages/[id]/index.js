@@ -162,7 +162,6 @@ const Page = ({ user }) => {
             Tijdens onze eerste ontmoeting op 1 september gaan we samen kijken naar wat Smart Industry - of Industry 4.0 - betekent. De volgende video legt kort uit wat het is.
           </p>
           <YouTube url="v9rZOa3CUC8" />
-          <hr />
           <p>
             Je hebt nu een definitie van het begrip Smart Industry. Tijdens de minor gaan we hier gezamenlijk een persoonlijke invulling aan geven. Dit doen we door puzzelstukjes te verzamelen (kennis, indrukken, ervaringen, tests en demo's, etc.) Deze koppelen we aan elkaar en zo ontstaat ons eigen Smart Industry verhaal.
           </p>
