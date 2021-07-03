@@ -80,6 +80,10 @@ const useStyles = makeStyles({
   listitem: {
     marginBottom: 10
   },
+  sectionheader: {
+    marginBottom: 10,
+    marginTop: 30,
+  },
   mediabox: {
     margin: 30,
   }
@@ -99,66 +103,68 @@ const Page = ({ user }) => {
           </Toolbar>
         </AppBar>
         <Typography variant="h3">Hallo {user.roepnaam}</Typography>
-        <Typography variant="h6">
-          <p>
-            Op woensdag 1 september 2021 gaan we van start met de Minor Smart Industry (MSI). We zijn blij dat jij en zoveel medestudenten jullie hebben aangemeld. Van harte welkom!
-          </p>
-        </Typography>
-        <Typography variant="body1">
-          <p>
-            Hieronder vind je algemene informatie, de invulling van de eerste week en een eerste opdracht. De roostering van de overige weken is helaas pas na de zomervakantie bekend.
-          </p>
-          <p>
-            Op woensdag 1 september 2021 gaan we van start met de Minor Smart Industry (MSI). We zijn blij dat jullie je met zo velen hebben aangemeld. Van harte welkom!
-          </p>
-          <p>
-            Hieronder vind je algemene informatie, de invulling van de eerste week en een eerste opdracht. De roostering van de overige weken is helaas pas na de zomervakantie bekend.
-          </p>
-
-          <ol>
-            <li className={classes.listitem}>
-              De naam van je klas is <Box fontWeight='fontWeightMedium' display='inline'>BKN-M06</Box>.
-            </li>
-            <li className={classes.listitem}>
-              We starten op <Box fontWeight='fontWeightMedium' display='inline'>woensdag 1 september 9.30 uur in de Meshallen, Nieuweweg 240 in Wijchen</Box>. Neem je laptop mee. We helpen je dan ook met de installatie van de software op je computer (zie punt 8).
-              Op donderdag 2 september worden er ook gedurende de hele dag workshops verzorgd, 's ochtend online en 's middags in de Meshallen (je bent wél de hele dag welkom in de Meshallen). Op vrijdagochtend 3 september is er een workshop in de Meshallen.
-            </li>
-            <li className={classes.listitem}>
-              De eerste 6 weken zijn er vanuit de 4 leerlijnen, workshops gepland op zo’n 3 dagen per week. De workshops gaan over Smart Business, Smart Connection, Smart Technology en Smart Start (o.a. research). Deze 6 weken ben je intensief aan het studeren (zo’n 32 uur, afhankelijk van je voorkennis en talent). In deze weken toon je aan dat je gemotiveerd en geschikt bent om voor één van onze opdrachtgevers met een project aan de slag te gaan. In je rooster zie je deze leerlijnen als volgt terug: MSI1A.9: Smart Start, MSI2A.9: Smart Connection, MSI3A.9: Smart Technology, MSI4A.9: Smart Business en MSI5A.9: Smart Project.
-            </li>
-            <li className={classes.listitem}>
-              Op <Box fontWeight='fontWeightMedium' display='inline'>woensdagochtend 15 september 2021</Box> maak je kennis met de opdrachtgevers en hun vraagstukken.
-              Na 6 weken workshops, dus vanaf maandag 11 oktober, ga je in groepen van gemiddeld 3 studenten voor een periode van 12 weken een opdracht doen bij een bedrijf. We verwachten dat je daar 4 dagen in de week aan werkt en 1 dag per week zal er nog een workshop gegeven worden, kan er een bedrijfsbezoek plaatsvinden en is er ruimte voor begeleiding/ intervisie.
-            </li>
-            <li className={classes.listitem}>
-              <BeachAccessIcon /> De herfstvakantie is van 25 tot en met 29 oktober.
-            </li>
-            <li className={classes.listitem}>
-              Door te werken aan het project en je voor te bereiden op en actief deel te nemen aan de trainingen, workshops, bedrijfsbezoeken, intervisies e.d. kun je aantonen dat je je ontwikkeld hebt en voldoet aan de competenties. In een smart portfolio (website) leg je je bewijzen vast. Zonder bewijs kunnen we de competenties niet aftoetsen en dus geen studiepunten verlenen.
-            </li>
-            <li className={classes.listitem}>
-              <Link href="https://bkmoodle.femplaza.nl/course/view.php?id=394" color="primary"><a>Moodle</a></Link> is de leeromgeving van de HAN. Je kunt een account aanmaken en je verdiepen in de leeromgeving van MSI (deze is nog wel onder constructie).
-            </li>
-            <li className={classes.listitem}>
-              Je hebt een laptop nodig. Neem die altijd mee en zorg dat je de juiste software hebt geïnstalleerd (zie onderstaande instructies en gedurende het traject).
-              Voor het onderdeel Big Data dien je (gratis) software te installeren: Visual Studio Code. Instructies vind je <Link href="https://code.visualstudio.com/" color="primary"><a>hier</a></Link>.
-            </li>
-            <li className={classes.listitem}>
-              Maak een account aan bij <Link href="https://github.com/" color="primary"><a>Github</a></Link> en stuur je usernaam door aan Witek ten Hove (witek.tenhove@han.nl).
-            </li>
-            <li className={classes.listitem}>
-              Mocht je je alvast willen verdiepen in de onderwerpen die behandeld zullen worden, lees bijvoorbeeld over IoT, VR/ AR, big data e.d. via McKinsey, HBR, Forbes, Gartner, etc. Meer over AI lees je via deze <Link href="https://www.ai-cursus.nl/" color="primary"><a>link</a></Link>. Maak in ieder geval de bijgevoegde opdracht.
-            </li>
-            <li className={classes.listitem}>
-              Een student van een vorige lichting (Benno Schuuring) heeft op LinkedIn een alumni groep aangemaakt. Meld je <Link href="https://www.linkedin.com/groups/13661379/" color="primary"><a>hier</a></Link> aan.
-            </li>
-          </ol>
-          <p>
-            Geniet van de zomer en we verheugen ons erop om je op 1 september in Wijchen te ontmoeten!
-          </p>
-        </Typography>
         <Box>
-          <Typography variant="h5" className={classes.root}>
+          <Typography variant="h6">
+            <p>
+              Op woensdag 1 september 2021 gaan we van start met de Minor Smart Industry (MSI). We zijn blij dat jij en zoveel medestudenten jullie hebben aangemeld. Van harte welkom!
+            </p>
+          </Typography>
+          <Typography variant="body1">
+            <p>
+              Hieronder vind je algemene informatie, de invulling van de eerste week en een eerste opdracht. De roostering van de overige weken is helaas pas na de zomervakantie bekend.
+            </p>
+            <p>
+              Op woensdag 1 september 2021 gaan we van start met de Minor Smart Industry (MSI). We zijn blij dat jullie je met zo velen hebben aangemeld. Van harte welkom!
+            </p>
+            <p>
+              Hieronder vind je algemene informatie, de invulling van de eerste week en een eerste opdracht. De roostering van de overige weken is helaas pas na de zomervakantie bekend.
+            </p>
+
+            <ol>
+              <li className={classes.listitem}>
+                De naam van je klas is <Box fontWeight='fontWeightMedium' display='inline'>BKN-M06</Box>.
+              </li>
+              <li className={classes.listitem}>
+                We starten op <Box fontWeight='fontWeightMedium' display='inline'>woensdag 1 september 9.30 uur in de Meshallen, Nieuweweg 240 in Wijchen</Box>. Neem je laptop mee. We helpen je dan ook met de installatie van de software op je computer (zie punt 8).
+                Op donderdag 2 september worden er ook gedurende de hele dag workshops verzorgd, 's ochtend online en 's middags in de Meshallen (je bent wél de hele dag welkom in de Meshallen). Op vrijdagochtend 3 september is er een workshop in de Meshallen.
+              </li>
+              <li className={classes.listitem}>
+                De eerste 6 weken zijn er vanuit de 4 leerlijnen, workshops gepland op zo’n 3 dagen per week. De workshops gaan over Smart Business, Smart Connection, Smart Technology en Smart Start (o.a. research). Deze 6 weken ben je intensief aan het studeren (zo’n 32 uur, afhankelijk van je voorkennis en talent). In deze weken toon je aan dat je gemotiveerd en geschikt bent om voor één van onze opdrachtgevers met een project aan de slag te gaan. In je rooster zie je deze leerlijnen als volgt terug: MSI1A.9: Smart Start, MSI2A.9: Smart Connection, MSI3A.9: Smart Technology, MSI4A.9: Smart Business en MSI5A.9: Smart Project.
+              </li>
+              <li className={classes.listitem}>
+                Op <Box fontWeight='fontWeightMedium' display='inline'>woensdagochtend 15 september 2021</Box> maak je kennis met de opdrachtgevers en hun vraagstukken.
+                Na 6 weken workshops, dus vanaf maandag 11 oktober, ga je in groepen van gemiddeld 3 studenten voor een periode van 12 weken een opdracht doen bij een bedrijf. We verwachten dat je daar 4 dagen in de week aan werkt en 1 dag per week zal er nog een workshop gegeven worden, kan er een bedrijfsbezoek plaatsvinden en is er ruimte voor begeleiding/ intervisie.
+              </li>
+              <li className={classes.listitem}>
+                <BeachAccessIcon /> De herfstvakantie is van 25 tot en met 29 oktober.
+              </li>
+              <li className={classes.listitem}>
+                Door te werken aan het project en je voor te bereiden op en actief deel te nemen aan de trainingen, workshops, bedrijfsbezoeken, intervisies e.d. kun je aantonen dat je je ontwikkeld hebt en voldoet aan de competenties. In een smart portfolio (website) leg je je bewijzen vast. Zonder bewijs kunnen we de competenties niet aftoetsen en dus geen studiepunten verlenen.
+              </li>
+              <li className={classes.listitem}>
+                <Link href="https://bkmoodle.femplaza.nl/course/view.php?id=394" color="primary"><a>Moodle</a></Link> is de leeromgeving van de HAN. Je kunt een account aanmaken en je verdiepen in de leeromgeving van MSI (deze is nog wel onder constructie).
+              </li>
+              <li className={classes.listitem}>
+                Je hebt een laptop nodig. Neem die altijd mee en zorg dat je de juiste software hebt geïnstalleerd (zie onderstaande instructies en gedurende het traject).
+                Voor het onderdeel Big Data dien je (gratis) software te installeren: Visual Studio Code. Instructies vind je <Link href="https://code.visualstudio.com/" color="primary"><a>hier</a></Link>.
+              </li>
+              <li className={classes.listitem}>
+                Maak een account aan bij <Link href="https://github.com/" color="primary"><a>Github</a></Link> en stuur je usernaam door aan Witek ten Hove (witek.tenhove@han.nl).
+              </li>
+              <li className={classes.listitem}>
+                Mocht je je alvast willen verdiepen in de onderwerpen die behandeld zullen worden, lees bijvoorbeeld over IoT, VR/ AR, big data e.d. via McKinsey, HBR, Forbes, Gartner, etc. Meer over AI lees je via deze <Link href="https://www.ai-cursus.nl/" color="primary"><a>link</a></Link>. Maak in ieder geval de bijgevoegde opdracht.
+              </li>
+              <li className={classes.listitem}>
+                Een student van een vorige lichting (Benno Schuuring) heeft op LinkedIn een alumni groep aangemaakt. Meld je <Link href="https://www.linkedin.com/groups/13661379/" color="primary"><a>hier</a></Link> aan.
+              </li>
+            </ol>
+            <p>
+              Geniet van de zomer en we verheugen ons erop om je op 1 september in Wijchen te ontmoeten!
+            </p>
+          </Typography>
+        </Box>
+        <Box>
+          <Typography variant="h4" className={classes.sectionheader}>
             Opdracht
           </Typography>
 
@@ -170,7 +176,6 @@ const Page = ({ user }) => {
           <Box className={classes.mediabox}>
             <YouTube url="v9rZOa3CUC8" />
           </Box>
-
           <Typography variant="body1">
             <p>
               Je hebt nu een definitie van het begrip Smart Industry. Tijdens de minor gaan we hier gezamenlijk een persoonlijke invulling aan geven. Dit doen we door puzzelstukjes te verzamelen (kennis, indrukken, ervaringen, tests en demo's, etc.) Deze koppelen we aan elkaar en zo ontstaat ons eigen Smart Industry verhaal.
