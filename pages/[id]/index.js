@@ -6,6 +6,7 @@ import Toolbar from '@material-ui/core/Toolbar';
 import Box from '@material-ui/core/Box';
 import ExtensionIcon from '@material-ui/icons/Extension';
 import BeachAccessIcon from '@material-ui/icons/BeachAccess';
+import WbSunnyIcon from '@material-ui/icons/WbSunny';
 import { makeStyles } from '@material-ui/styles';
 import Link from 'next/link'
 
@@ -71,14 +72,16 @@ export const getStaticProps = async (context) => {
 
 const useStyles = makeStyles({
   root: {
+  },
+  appbar: {
     marginBottom: 30,
     marginTop: 10,
   },
   appbartext: {
-    marginLeft: 30
+    marginLeft: 30,
   },
   listitem: {
-    marginBottom: 10
+    marginBottom: 10,
   },
   sectionheader: {
     marginBottom: 10,
@@ -94,7 +97,7 @@ const Page = ({ user }) => {
   return (
     <div>
       <Container>
-        <AppBar position="static" color="secondary" className={classes.root}>
+        <AppBar position="static" color="secondary" className={classes.appbar}>
           <Toolbar >
             <ExtensionIcon />
             <Typography variant="h4" className={classes.appbartext}>
@@ -156,7 +159,7 @@ const Page = ({ user }) => {
               </li>
             </ol>
             <p>
-              <Box border={1} bgcolor="primary.main" color="white" borderRadius={16} padding={2} fontSize={22} textAlign="center">Geniet van de zomer en we verheugen ons erop om je op 1 september in Wijchen te ontmoeten!</Box>
+              <Box border={1} bgcolor="primary.main" color="white" borderRadius={16} padding={2} fontSize={22} textAlign="center">Geniet van de zomer <WbSunnyIcon fontSize="large" /> en we verheugen ons erop om je op 1 september in Wijchen te ontmoeten!</Box>
             </p>
           </Typography>
         </Box>
