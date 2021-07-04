@@ -149,14 +149,14 @@ const Page = ({ user }) => {
                 Maak een account aan bij <Link href="https://github.com/" color="primary"><a>Github</a></Link> en stuur je usernaam door aan Witek ten Hove (witek.tenhove@han.nl).
               </li>
               <li className={classes.listitem}>
-                Mocht je je alvast willen verdiepen in de onderwerpen die behandeld zullen worden, lees bijvoorbeeld over IoT, VR/ AR, big data e.d. via McKinsey, HBR, Forbes, Gartner, etc. Meer over AI lees je via deze <Link href="https://www.ai-cursus.nl/" color="primary"><a>link</a></Link>. Maak in ieder geval de bijgevoegde opdracht.
+                Mocht je je alvast willen verdiepen in de onderwerpen die behandeld zullen worden, lees bijvoorbeeld over IoT, VR/ AR, big data e.d. via McKinsey, HBR, Forbes, Gartner, etc. Meer over AI lees je via deze <Link href="https://www.ai-cursus.nl/" color="primary"><a>link</a></Link>. Maak in ieder geval de opdracht die we hieronder hebben toegevoegd.
               </li>
               <li className={classes.listitem}>
                 Een student van een vorige lichting (Benno Schuuring) heeft op LinkedIn een alumni groep aangemaakt. Meld je <Link href="https://www.linkedin.com/groups/13661379/" color="primary"><a>hier</a></Link> aan.
               </li>
             </ol>
             <p>
-              Geniet van de zomer en we verheugen ons erop om je op 1 september in Wijchen te ontmoeten!
+              <Box border={1} bgcolor="primary.main" color="white" borderRadius={16} padding={2} fontSize={22} textAlign="center">Geniet van de zomer en we verheugen ons erop om je op 1 september in Wijchen te ontmoeten!</Box>
             </p>
           </Typography>
         </Box>
