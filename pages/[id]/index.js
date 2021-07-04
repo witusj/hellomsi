@@ -1,4 +1,4 @@
-import { YouTube } from '../../components/youtube'
+import { YouTube, Map } from '../../components/youtube'
 import Container from '@material-ui/core/Container';
 import Typography from '@material-ui/core/Typography';
 import AppBar from '@material-ui/core/AppBar';
@@ -118,7 +118,11 @@ const Page = ({ user }) => {
                 De naam van je klas is <Box fontWeight='fontWeightMedium' display='inline'>BKN-M06</Box>.
               </li>
               <li className={classes.listitem}>
-                We starten op <Box fontWeight='fontWeightMedium' display='inline'>woensdag 1 september 9.30 uur in de Meshallen, Nieuweweg 240 in Wijchen</Box>. Neem je laptop mee. We helpen je dan ook met de installatie van de software op je computer (zie punt 8).
+                We starten op <Box fontWeight='fontWeightMedium' display='inline'>woensdag 1 september 9.30 uur in de Meshallen, Nieuweweg 240 in Wijchen</Box>.
+                <Box className={classes.mediabox}>
+                  <Map />
+                </Box>
+                Neem je laptop mee. We helpen je dan ook met de installatie van de software op je computer (zie punt 8).
                 Op donderdag 2 september worden er ook gedurende de hele dag workshops verzorgd, 's ochtend online en 's middags in de Meshallen (je bent wél de hele dag welkom in de Meshallen). Op vrijdagochtend 3 september is er een workshop in de Meshallen.
               </li>
               <li className={classes.listitem}>
@@ -129,7 +133,7 @@ const Page = ({ user }) => {
                 Na 6 weken workshops, dus vanaf maandag 11 oktober, ga je in groepen van gemiddeld 3 studenten voor een periode van 12 weken een opdracht doen bij een bedrijf. We verwachten dat je daar 4 dagen in de week aan werkt en 1 dag per week zal er nog een workshop gegeven worden, kan er een bedrijfsbezoek plaatsvinden en is er ruimte voor begeleiding/ intervisie.
               </li>
               <li className={classes.listitem}>
-                <BeachAccessIcon /> De herfstvakantie is van 25 tot en met 29 oktober.
+                <BeachAccessIcon color="error" fontSize="large" /> De herfstvakantie is van 25 tot en met 29 oktober.
               </li>
               <li className={classes.listitem}>
                 Door te werken aan het project en je voor te bereiden op en actief deel te nemen aan de trainingen, workshops, bedrijfsbezoeken, intervisies e.d. kun je aantonen dat je je ontwikkeld hebt en voldoet aan de competenties. In een smart portfolio (website) leg je je bewijzen vast. Zonder bewijs kunnen we de competenties niet aftoetsen en dus geen studiepunten verlenen.
