@@ -91,22 +91,11 @@ const useStyles = makeStyles({
   },
   mediabox: {
     margin: 30,
-    overflow: "hidden",
-    paddingBottom: "56.25%",
-    position: "relative",
-    height: 0,
-    mediaitem: {
-      left: 0,
-      top: 0,
-      height: "100%",
-      width: "100%",
-      position: "absolute",
-    }
   }
 })
 
-const Page = ({ user, props }) => {
-  const classes = useStyles(props);
+const Page = ({ user }) => {
+  const classes = useStyles();
   return (
     <div>
       <Container>
