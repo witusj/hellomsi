@@ -113,13 +113,6 @@ const Page = ({ user }) => {
             <p>
               Hieronder vind je algemene informatie, de invulling van de eerste week en een eerste opdracht. De roostering van de overige weken is helaas pas na de zomervakantie bekend.
             </p>
-            <p>
-              Op woensdag 1 september 2021 gaan we van start met de Minor Smart Industry (MSI). We zijn blij dat jullie je met zo velen hebben aangemeld. Van harte welkom!
-            </p>
-            <p>
-              Hieronder vind je algemene informatie, de invulling van de eerste week en een eerste opdracht. De roostering van de overige weken is helaas pas na de zomervakantie bekend.
-            </p>
-
             <ol>
               <li className={classes.listitem}>
                 De naam van je klas is <Box fontWeight='fontWeightMedium' display='inline'>BKN-M06</Box>.
@@ -146,7 +139,7 @@ const Page = ({ user }) => {
               </li>
               <li className={classes.listitem}>
                 Je hebt een laptop nodig. Neem die altijd mee en zorg dat je de juiste software hebt geïnstalleerd (zie onderstaande instructies en gedurende het traject).
-                Voor het onderdeel Big Data dien je (gratis) software te installeren: Visual Studio Code. Instructies vind je <Link href="https://code.visualstudio.com/" color="primary"><a>hier</a></Link>.
+                Voor het onderdeel Smart Connection dien je (gratis) software te installeren: Visual Studio Code. Instructies vind je <Link href="https://code.visualstudio.com/" color="primary"><a>hier</a></Link>.
               </li>
               <li className={classes.listitem}>
                 Maak een account aan bij <Link href="https://github.com/" color="primary"><a>Github</a></Link> en stuur je usernaam door aan Witek ten Hove (witek.tenhove@han.nl).
