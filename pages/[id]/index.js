@@ -12,8 +12,8 @@ import Link from 'next/link'
 
 
 
-const datafetcher = async () =>
-  fetch("https://spreadsheets.google.com/feeds/list/1VjgwMrwtRrzWje7k4gG01KC9tcfOW0AjT5iyPdkrDmU/1/public/values?alt=json")
+const datafetcher = async (gid) =>
+  fetch("https://spreadsheets.google.com/feeds/list/" + gid + "/1/public/values?alt=json")
     .then(res => res.json())
     .then(json => {
       const data = [] /* this array will eventually be populated with the contents of the spreadsheet's rows */
@@ -45,7 +45,8 @@ const datafetcher = async () =>
 
 
 export const getStaticPaths = async () => {
-  const data = await datafetcher()
+  const gid = process.env.GID
+  const data = await datafetcher(gid)
   const paths = data.map(user => {
     return {
       params: { id: user.id.toString() }
@@ -59,8 +60,9 @@ export const getStaticPaths = async () => {
 }
 
 export const getStaticProps = async (context) => {
+  const gid = process.env.GID
   const id = context.params.id
-  const res = await datafetcher()
+  const res = await datafetcher(gid)
   const filtered = await res.find(function (item) {
     return item.id == id
   });
