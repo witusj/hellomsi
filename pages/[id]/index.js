@@ -108,7 +108,7 @@ const Page = ({ user }) => {
                                 Door te werken aan het project en je voor te bereiden op en actief deel te nemen aan de trainingen, workshops, bedrijfsbezoeken, intervisies e.d. kun je aantonen dat je je ontwikkeld hebt en voldoet aan de competenties. In een smart portfolio (website) leg je je bewijzen vast. Zonder bewijs kunnen we de competenties niet aftoetsen en dus geen studiepunten verlenen.
                             </li>
                             <li className={classes.listitem}>
-                                <Link href="https://bkmoodle.femplaza.nl/course/view.php?id=394" color="primary"><a>Moodle</a></Link> is de leeromgeving van de HAN. Je kunt een account aanmaken en je verdiepen in de leeromgeving van MSI (deze is nog wel onder constructie).
+                                <Link href="https://bkmoodle.femplaza.nl/course/view.php?id=504" color="primary"><a>Moodle</a></Link> is de leeromgeving van de HAN. Je kunt een account aanmaken en je verdiepen in de leeromgeving van MSI (deze is nog wel onder constructie).
                             </li>
                             <li className={classes.listitem}>
                                 Je hebt een laptop nodig. Neem die altijd mee en zorg dat je de juiste software hebt geïnstalleerd (zie onderstaande instructies en gedurende het traject). In de eerste sessies helpen we je met de installatie hiervan.
