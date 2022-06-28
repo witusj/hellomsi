@@ -9,7 +9,7 @@ import BeachAccessIcon from '@material-ui/icons/BeachAccess';
 import WbSunnyIcon from '@material-ui/icons/WbSunny';
 import { makeStyles } from '@material-ui/styles';
 import Link from 'next/link'
-import { data } from './data'
+import { data } from '../../data'
 
 
 export const getStaticPaths = async () => {
