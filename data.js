@@ -94,5 +94,11 @@ export const data = [
         "roepnaam": "Shen",
         "video": "SpeDK1TPbew",
         "link": "https://hellomsi.vercel.app/74bfb21f6d03714c07f045ea21409be7"
+    },
+    {
+        "id": "1b005fea9e95f2bf61567873d45bc2b6",
+        "roepnaam": "Lars",
+        "video": "eD__3i8Di-k",
+        "link": "https://hellomsi.vercel.app/1b005fea9e95f2bf61567873d45bc2b6"
     }
 ]
