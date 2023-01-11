@@ -37,7 +37,7 @@ export const data = [
     }, {
         "id": "9fca3792acbf18a106d67a34a833d7aa8a8dc49ee0bf29a12fc95368788b51cf",
         "roepnaam": "Anthony",
-        "video": "https://youtu.be/4LQCsPbA6rU",
+        "video": "4LQCsPbA6rU",
         "link": "https://hellomsi.vercel.app/9fca3792acbf18a106d67a34a833d7aa8a8dc49ee0bf29a12fc95368788b51cf"
     }, {
         "id": "b749578d3556e4bc72127ec8a8cda5898f277c8f1a58ab661ccb9612bd86bd4f",
