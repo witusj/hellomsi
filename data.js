@@ -1,104 +1,63 @@
 export const data = [
     {
-        "id": "b81f59eeadfb999660e8638482677b2b",
-        "roepnaam": "Lars",
-        "video": "S2tmo_18fy0",
-        "link": "https://hellomsi.vercel.app/b81f59eeadfb999660e8638482677b2b"
-    },
-    {
-        "id": "ec30b01213dc83f25ee2db4474c0b1a9",
-        "roepnaam": "Ibis",
-        "video": "taZJblMAuko",
-        "link": "https://hellomsi.vercel.app/ec30b01213dc83f25ee2db4474c0b1a9"
-    },
-    {
-        "id": "6c416e76893ff295975bf1f0d3988d05",
-        "roepnaam": "Mathijs",
-        "video": "l6T9xIeZTds",
-        "link": "https://hellomsi.vercel.app/6c416e76893ff295975bf1f0d3988d05"
-    },
-    {
-        "id": "43198b08049fb826aad7ef04d48fc3e6",
-        "roepnaam": "Niels",
-        "video": "UvzRfUGAB_s",
-        "link": "https://hellomsi.vercel.app/43198b08049fb826aad7ef04d48fc3e6"
-    },
-    {
-        "id": "f53dc6a9713bc84068974a35ae9ead9a",
-        "roepnaam": "Daan",
-        "video": "ulImUb5SoPQ",
-        "link": "https://hellomsi.vercel.app/f53dc6a9713bc84068974a35ae9ead9a"
-    },
-    {
-        "id": "4c28ff7b4a85c48bb4e3b4aa581dcf32",
+        "id": "32198cab92f6299aa7ed298420f15036a555acd95c218c05b4939d9e703b062c",
+        "roepnaam": "Ashley",
+        "video": "pTe-0cyAqHc",
+        "link": "https://hellomsi.vercel.app/32198cab92f6299aa7ed298420f15036a555acd95c218c05b4939d9e703b062c"
+    }, {
+        "id": "b75a32fca7f8360dc9bc4a5a85b3c61add7dd5127f8eb7c0c93d916eaeb0f53a",
+        "roepnaam": "Chantal",
+        "video": "kg2E3GHnWU0",
+        "link": "https://hellomsi.vercel.app/b75a32fca7f8360dc9bc4a5a85b3c61add7dd5127f8eb7c0c93d916eaeb0f53a"
+    }, {
+        "id": "5fd840fb619d55da0cea5365c826a242d8b7f401d3cdce17f636f0da9d38dd7c",
+        "roepnaam": "Teun",
+        "video": "Tb7Kv6P7m9Q",
+        "link": "https://hellomsi.vercel.app/5fd840fb619d55da0cea5365c826a242d8b7f401d3cdce17f636f0da9d38dd7c"
+    }, {
+        "id": "5775888184d46b061b11e96fa957aa50775160f6386ee8d7f6af76e32801b146",
+        "roepnaam": "Sabawoon",
+        "video": "NIYeLLmT6oI",
+        "link": "https://hellomsi.vercel.app/5775888184d46b061b11e96fa957aa50775160f6386ee8d7f6af76e32801b146"
+    }, {
+        "id": "61727b24d552f9deb4377491f0747d954497dbc7b0fccbd4caffacf0e6ca1a7e",
+        "roepnaam": "Nick",
+        "video": "6WaYfPAkFtQ",
+        "link": "https://hellomsi.vercel.app/61727b24d552f9deb4377491f0747d954497dbc7b0fccbd4caffacf0e6ca1a7e"
+    }, {
+        "id": "7b657222dccd964773385d086f04f8520f12887084ab0ff1e9d1dc0925676aaf",
         "roepnaam": "Jesse",
-        "video": "CLo3e1Pak-Y",
-        "link": "https://hellomsi.vercel.app/4c28ff7b4a85c48bb4e3b4aa581dcf32"
-    },
-    {
-        "id": "7ea5572608b1a5c5334a5ebb5deee262",
+        "video": "LEgHRAQ1HmE",
+        "link": "https://hellomsi.vercel.app/7b657222dccd964773385d086f04f8520f12887084ab0ff1e9d1dc0925676aaf"
+    }, {
+        "id": "502aec20d7a3f22eb5f32d241f02c7a220f6ff78a08b7f75874e7e5c347532ea",
+        "roepnaam": "Aaron",
+        "video": "zbzcZr_Nadc",
+        "link": "https://hellomsi.vercel.app/502aec20d7a3f22eb5f32d241f02c7a220f6ff78a08b7f75874e7e5c347532ea"
+    }, {
+        "id": "9fca3792acbf18a106d67a34a833d7aa8a8dc49ee0bf29a12fc95368788b51cf",
+        "roepnaam": "Anthony",
+        "video": "https://youtu.be/4LQCsPbA6rU",
+        "link": "https://hellomsi.vercel.app/9fca3792acbf18a106d67a34a833d7aa8a8dc49ee0bf29a12fc95368788b51cf"
+    }, {
+        "id": "b749578d3556e4bc72127ec8a8cda5898f277c8f1a58ab661ccb9612bd86bd4f",
+        "roepnaam": "Saar",
+        "video": "oJkQkr3Yy2Q",
+        "link": "https://hellomsi.vercel.app/b749578d3556e4bc72127ec8a8cda5898f277c8f1a58ab661ccb9612bd86bd4f"
+    }, {
+        "id": "74e71f6fd7b8cdc0a97f6d910c2c9824104675aba6bab8cb978d5352b288cb23",
         "roepnaam": "Job",
-        "video": "gUc5oN_ffRo",
-        "link": "https://hellomsi.vercel.app/7ea5572608b1a5c5334a5ebb5deee262"
-    },
-    {
-        "id": "048479e6b90b6393e663cdec2afea4f8",
-        "roepnaam": "Jordy",
-        "video": "GFD_Cgr2zho",
-        "link": "https://hellomsi.vercel.app/048479e6b90b6393e663cdec2afea4f8"
-    },
-    {
-        "id": "82b7a59a48e9bdcd2db252f45981eaf7",
-        "roepnaam": "Ahmet",
-        "video": "fBnT0tsLqGQ",
-        "link": "https://hellomsi.vercel.app/82b7a59a48e9bdcd2db252f45981eaf7"
-    },
-    {
-        "id": "b72fae208f08cebe04f5ad67c9cd62d4",
-        "roepnaam": "Martijn",
-        "video": "YHVNWtBuDVk",
-        "link": "https://hellomsi.vercel.app/b72fae208f08cebe04f5ad67c9cd62d4"
-    },
-    {
-        "id": "e178603cb6622dac43d61f7c1df175ab",
-        "roepnaam": "Timo",
-        "video": "X7n11XAYp7k",
-        "link": "https://hellomsi.vercel.app/e178603cb6622dac43d61f7c1df175ab"
-    },
-    {
-        "id": "8ef6d1c69e8282265b10dc9933356b5a",
-        "roepnaam": "Jelle",
-        "video": "PfctELCYUc0",
-        "link": "https://hellomsi.vercel.app/8ef6d1c69e8282265b10dc9933356b5a"
-    },
-    {
-        "id": "54ebd9472c801feea24529d64ba9654f",
-        "roepnaam": "Koen",
-        "video": "_X9ge_W_ZPA",
-        "link": "https://hellomsi.vercel.app/54ebd9472c801feea24529d64ba9654f"
-    },
-    {
-        "id": "25092c920c901cce0174e7b4b5182b13",
-        "roepnaam": "Rick",
-        "video": "CjsfaR-JcyU",
-        "link": "https://hellomsi.vercel.app/25092c920c901cce0174e7b4b5182b13"
-    },
-    {
-        "id": "d8cb440a25b7d58b89cbdaf1dbdde3ec",
-        "roepnaam": "Robert",
-        "video": "GAjTqXRWizc",
-        "link": "https://hellomsi.vercel.app/d8cb440a25b7d58b89cbdaf1dbdde3ec"
-    },
-    {
-        "id": "74bfb21f6d03714c07f045ea21409be7",
-        "roepnaam": "Shen",
-        "video": "SpeDK1TPbew",
-        "link": "https://hellomsi.vercel.app/74bfb21f6d03714c07f045ea21409be7"
-    },
-    {
-        "id": "1b005fea9e95f2bf61567873d45bc2b6",
-        "roepnaam": "Lars",
-        "video": "eD__3i8Di-k",
-        "link": "https://hellomsi.vercel.app/1b005fea9e95f2bf61567873d45bc2b6"
+        "video": "SZRAGpo3wy0",
+        "link": "https://hellomsi.vercel.app/74e71f6fd7b8cdc0a97f6d910c2c9824104675aba6bab8cb978d5352b288cb23"
+    }, {
+        "id": "f16643e526528f0ca2bb0ad0b33d0e1e6716321ea68d3f8cba32db98e0e1f7b1",
+        "roepnaam": "Joris",
+        "video": "deOTK-zWRTg",
+        "link": "https://hellomsi.vercel.app/f16643e526528f0ca2bb0ad0b33d0e1e6716321ea68d3f8cba32db98e0e1f7b1"
+    }, {
+        "id": "df28083047f5e7e82fdc0a6de3985a6fc580154c1275aba8cd9300e0966ecb87",
+        "roepnaam": "Ruben",
+        "video": "VsUF_CBJq50",
+        "link": "https://hellomsi.vercel.app/df28083047f5e7e82fdc0a6de3985a6fc580154c1275aba8cd9300e0966ecb87"
     }
 ]
