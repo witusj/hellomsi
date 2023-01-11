@@ -75,44 +75,43 @@ const Page = ({ user }) => {
                 <Box>
                     <Typography variant="h6">
                         <p>
-                            Op woensdag 31 augustus 2022 gaan we van start met de Minor Smart Industry (MSI). We zijn blij dat jij en zoveel medestudenten jullie hebben aangemeld. Van harte welkom!
+                            Op woensdag 1 februari 2023 gaan we van start met de Minor Smart Industry (MSI). We zijn blij dat jij en zoveel medestudenten jullie hebben aangemeld. Van harte welkom!
                         </p>
                     </Typography>
                     <Typography variant="body1">
                         <p>
-                            Hieronder vind je algemene informatie, de invulling van de eerste week en een eerste opdracht. De roostering van de overige weken is helaas pas na de zomervakantie bekend.
+                            Hieronder vind je algemene informatie, de invulling van de eerste week en een eerste opdracht.
                         </p>
                         <ol>
                             <li className={classes.listitem}>
                                 De naam van je klas is <Box fontWeight='fontWeightMedium' display='inline'>BKN-M06</Box>.
                             </li>
                             <li className={classes.listitem}>
-                                We starten op <Box fontWeight='fontWeightMedium' display='inline'>woensdag 31 augustus om 9.00 uur in de Meshallen, Nieuweweg 240 in Wijchen</Box>. In de ochtend zal een kickoffsessie plaatsvinden met o.a. een presentatie van onze lector Smart Business, Maarten van Gils. De lunch zal door MSI worden verzorgd. De middag is gereserveerd voor de eerst workshop vanuit Smart Business.
+                                We starten op <Box fontWeight='fontWeightMedium' display='inline'>woensdag 1 februari om 9.00 uur in de Meshallen, Nieuweweg 240 in Wijchen</Box>. In de ochtend zal een kickoffsessie plaatsvinden met o.a. een presentatie van onze lector Smart Business, Maarten van Gils. De lunch zal door MSI worden verzorgd. De middag is gereserveerd voor de eerst workshop vanuit Smart Business.
 
-                                Op donderdag 1 september zal van 10 tot 16u op de HAN in Nijmegen de eerste workshop Smart Technology worden gegeven.
+                                Op donderdag 2 februari zal van 11 tot 16u op de HAN in Nijmegen (zie rooster voor exacte locatie) de eerste workshop Smart Technology worden gegeven. De vrijdag erop ontmoeten we elkaar wederom in de Meshallen voor de workshop Smart Connection.
                                 <Box className={classes.mediabox}>
                                     <Map />
                                 </Box>
                             </li>
                             <li className={classes.listitem}>
-                                De eerste 6 weken zijn er vanuit de 4 leerlijnen, workshops gepland op zo’n 3 dagen per week. De workshops gaan over Smart Business, Smart Connection, Smart Technology en Smart Me (o.a. research). Deze 6 weken ben je intensief aan het studeren (zo’n 32 uur, afhankelijk van je voorkennis en talent). In deze weken toon je aan dat je gemotiveerd en geschikt bent om voor één van onze opdrachtgevers met een project aan de slag te gaan. In je rooster zie je deze leerlijnen als volgt terug: MSI1A.9: Smart Me, MSI2A.9: Smart Connection, MSI3A.9: Smart Technology, MSI4A.9: Smart Business en MSI5A.9: Smart Project.
+                                De eerste 6 weken zijn er vanuit de 4 leerlijnen, workshops gepland op zo’n 3 dagen per week. De workshops gaan over Smart Business, Smart Connection, Smart Technology en Smart Me. Deze 6 weken ben je intensief aan het studeren (zo’n 32 uur, afhankelijk van je voorkennis en talent). In deze weken toon je aan dat je gemotiveerd en geschikt bent om voor één van onze opdrachtgevers met een project aan de slag te gaan. In je rooster zie je deze leerlijnen als volgt terug: MSI1A.9: Smart Me, MSI2A.9: Smart Connection, MSI3A.9: Smart Technology, MSI4A.9: Smart Business en MSI5A.9: Smart Project.
                             </li>
                             <li className={classes.listitem}>
-                                Op <Box fontWeight='fontWeightMedium' display='inline'>woensdagochtend 7 september 2022</Box> maak je kennis met de opdrachtgevers en hun vraagstukken.
-                                Na 6 weken workshops, dus vanaf maandag 10 oktober, ga je in groepen van 2-3 studenten voor een periode van 12 weken een opdracht doen bij een bedrijf. We verwachten dat je daar 4 dagen in de week aan werkt en 1 dag per week zal er nog een workshop gegeven worden, kan er een bedrijfsbezoek plaatsvinden en is er ruimte voor begeleiding/ intervisie.
+                                Op <Box fontWeight='fontWeightMedium' display='inline'>woensdagochtend 8 februari 2023</Box> maak je kennis met de opdrachtgevers en hun vraagstukken.
+                                Na afronding van de reeks workshops ga je in groepen van 2-3 studenten voor een periode van 12 weken een opdracht doen bij een bedrijf. We verwachten dat je daar 4 dagen in de week aan werkt en 1 dag per week zal er nog een workshop gegeven worden, kan er een bedrijfsbezoek plaatsvinden en is er ruimte voor begeleiding/ intervisie.
                             </li>
                             <li className={classes.listitem}>
-                                <BeachAccessIcon color="error" fontSize="large" /> De herfstvakantie is van 24 tot en met 28 oktober.
+                                <BeachAccessIcon color="error" fontSize="large" /> De voorjaarsvkantie is van 20 tot en met 24 februari en de meivakantie van 1 tot en met 5 mei.
                             </li>
                             <li className={classes.listitem}>
                                 Door te werken aan het project en je voor te bereiden op en actief deel te nemen aan de trainingen, workshops, bedrijfsbezoeken, intervisies e.d. kun je aantonen dat je je ontwikkeld hebt en voldoet aan de competenties. In een smart portfolio (website) leg je je bewijzen vast. Zonder bewijs kunnen we de competenties niet aftoetsen en dus geen studiepunten verlenen.
                             </li>
                             <li className={classes.listitem}>
-                                <Link href="https://bkmoodle.femplaza.nl/course/view.php?id=504" color="primary"><a>Moodle</a></Link> is de leeromgeving van de HAN. Je kunt een account aanmaken en je verdiepen in de leeromgeving van MSI (deze is nog wel onder constructie).
+                                <Link href="https://bkmoodle.aoohan.nl/course/view.php?id=513" color="primary"><a>Moodle</a></Link> is de leeromgeving van de HAN. Je kunt een account aanmaken en je verdiepen in de leeromgeving van MSI (deze is nog wel onder constructie).
                             </li>
                             <li className={classes.listitem}>
                                 Je hebt een laptop nodig. Neem die altijd mee en zorg dat je de juiste software hebt geïnstalleerd (zie onderstaande instructies en gedurende het traject). In de eerste sessies helpen we je met de installatie hiervan.
-                                Voor het onderdeel Smart Connection dien je (gratis) software te installeren: Visual Studio Code. Instructies vind je <Link href="https://code.visualstudio.com/" color="primary"><a>hier</a></Link>.
                             </li>
                             <li className={classes.listitem}>
                                 Maak een account aan bij <Link href="https://github.com/" color="primary"><a>Github</a></Link> en stuur je usernaam door aan Witek ten Hove (witek.tenhove@han.nl).
@@ -125,7 +124,7 @@ const Page = ({ user }) => {
                             </li>
                         </ol>
                         <p>
-                            <Box border={1} bgcolor="primary.main" color="white" borderRadius={16} padding={2} fontSize={22} textAlign="center">Geniet van de zomer <WbSunnyIcon fontSize="large" /> en we verheugen ons erop om je op 31 augustus in Wijchen te ontmoeten!</Box>
+                            <Box border={1} bgcolor="primary.main" color="white" borderRadius={16} padding={2} fontSize={22} textAlign="center">Geniet van de zomer <WbSunnyIcon fontSize="large" /> en we verheugen ons erop om je op 1 februari in Wijchen te ontmoeten!</Box>
                         </p>
                     </Typography>
                 </Box>
@@ -136,7 +135,7 @@ const Page = ({ user }) => {
 
                     <Typography variant="body1">
                         <p>
-                            Tijdens onze eerste ontmoeting op 31 augustus gaan we samen kijken naar wat Smart Industry - of Industry 4.0 - betekent. De volgende video legt kort uit wat het is.
+                            Tijdens onze eerste ontmoeting op 1 februari gaan we samen kijken naar wat Smart Industry - of Industry 4.0 - betekent. De volgende video legt kort uit wat het is.
                         </p>
                     </Typography>
                     <Box className={classes.mediabox}>
