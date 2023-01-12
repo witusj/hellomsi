@@ -25,10 +25,10 @@ export const data = [
         "video": "6WaYfPAkFtQ",
         "link": "https://hellomsi.vercel.app/61727b24d552f9deb4377491f0747d954497dbc7b0fccbd4caffacf0e6ca1a7e"
     }, {
-        "id": "7b657222dccd964773385d086f04f8520f12887084ab0ff1e9d1dc0925676aaf",
-        "roepnaam": "Jesse",
+        "id": "e40a0172ad86dd98f81f0266292de8bf808315ead7a821bfc31e0eb4e4624ff0",
+        "roepnaam": "Baris",
         "video": "LEgHRAQ1HmE",
-        "link": "https://hellomsi.vercel.app/7b657222dccd964773385d086f04f8520f12887084ab0ff1e9d1dc0925676aaf"
+        "link": "https://hellomsi.vercel.app/e40a0172ad86dd98f81f0266292de8bf808315ead7a821bfc31e0eb4e4624ff0"
     }, {
         "id": "502aec20d7a3f22eb5f32d241f02c7a220f6ff78a08b7f75874e7e5c347532ea",
         "roepnaam": "Aaron",
@@ -69,5 +69,30 @@ export const data = [
         "roepnaam": "Jens",
         "video": "iyC6Iu6k5Gk",
         "link": "https://hellomsi.vercel.app/f3c03af7efdf49c946f7632f5c3ac29419cce605951fe5fed87fcd2e857d78d7"
+    }, {
+        "id": "7ae6feea486e64864c795d174dd3cfb32836eb52974b6e0743244b865f0d37a4",
+        "roepnaam": "Stefano",
+        "video": "OULJ_Ywlfi8",
+        "link": "https://hellomsi.vercel.app/7ae6feea486e64864c795d174dd3cfb32836eb52974b6e0743244b865f0d37a4"
+    }, {
+        "id": "b4e94e3e18a0fafefdaf097a6e2775169397e982a3a29fedfe7017d58469a23b",
+        "roepnaam": "Thomas",
+        "video": "mzGjmyozaP0",
+        "link": "https://hellomsi.vercel.app/b4e94e3e18a0fafefdaf097a6e2775169397e982a3a29fedfe7017d58469a23b"
+    }, {
+        "id": "332cdfc6d1427f2f25779ae6efd02f741db2d504f474cd95d44a5f2e5df02df0",
+        "roepnaam": "Arjan",
+        "video": "FiGU44Qwpk0",
+        "link": "https://hellomsi.vercel.app/332cdfc6d1427f2f25779ae6efd02f741db2d504f474cd95d44a5f2e5df02df0"
+    }, {
+        "id": "2795c6b8740469159c7fd2f3d2a34a4842fef8aa01c6c98d760696133071fea4",
+        "roepnaam": "Kevin",
+        "video": "yTYDR1fRUhI",
+        "link": "https://hellomsi.vercel.app/2795c6b8740469159c7fd2f3d2a34a4842fef8aa01c6c98d760696133071fea4"
+    }, {
+        "id": "bc4689bb305d3e87cedb54eee6012f65a6c560117cb76a761dd45e5a3195d2df",
+        "roepnaam": "Koen",
+        "video": "GonrcDal3QU",
+        "link": "https://hellomsi.vercel.app/bc4689bb305d3e87cedb54eee6012f65a6c560117cb76a761dd45e5a3195d2df"
     }
 ]
