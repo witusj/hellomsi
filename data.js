@@ -59,5 +59,10 @@ export const data = [
         "roepnaam": "Ruben",
         "video": "VsUF_CBJq50",
         "link": "https://hellomsi.vercel.app/df28083047f5e7e82fdc0a6de3985a6fc580154c1275aba8cd9300e0966ecb87"
+    }, {
+        "id": "7f9f94acb357b4721ef565328a5428033a26612221a4ab22e6cfb2cae7556f75",
+        "roepnaam": "Bas",
+        "video": "VsUF_CBJq50",
+        "link": "https://hellomsi.vercel.app/7f9f94acb357b4721ef565328a5428033a26612221a4ab22e6cfb2cae7556f75"
     }
 ]
