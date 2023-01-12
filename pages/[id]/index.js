@@ -6,6 +6,7 @@ import Toolbar from '@material-ui/core/Toolbar';
 import Box from '@material-ui/core/Box';
 import ExtensionIcon from '@material-ui/icons/Extension';
 import BeachAccessIcon from '@material-ui/icons/BeachAccess';
+import EmojiNatureIcon from '@mui/icons-material/EmojiNature';
 import WbSunnyIcon from '@material-ui/icons/WbSunny';
 import { makeStyles } from '@material-ui/styles';
 import Link from 'next/link'
@@ -102,7 +103,7 @@ const Page = ({ user }) => {
                                 Na afronding van de reeks workshops ga je in groepen van 2-3 studenten voor een periode van 12 weken een opdracht doen bij een bedrijf. We verwachten dat je daar 4 dagen in de week aan werkt en 1 dag per week zal er nog een workshop gegeven worden, kan er een bedrijfsbezoek plaatsvinden en is er ruimte voor begeleiding/ intervisie.
                             </li>
                             <li className={classes.listitem}>
-                                <BeachAccessIcon color="error" fontSize="large" /> De voorjaarsvkantie is van 20 tot en met 24 februari en de meivakantie van 1 tot en met 5 mei.
+                                <EmojiNatureIcon color="error" fontSize="large" /> De voorjaarsvakantie is van 20 tot en met 24 februari en de meivakantie van 1 tot en met 5 mei.
                             </li>
                             <li className={classes.listitem}>
                                 Door te werken aan het project en je voor te bereiden op en actief deel te nemen aan de trainingen, workshops, bedrijfsbezoeken, intervisies e.d. kun je aantonen dat je je ontwikkeld hebt en voldoet aan de competenties. In een smart portfolio (website) leg je je bewijzen vast. Zonder bewijs kunnen we de competenties niet aftoetsen en dus geen studiepunten verlenen.
