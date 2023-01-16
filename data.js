@@ -95,7 +95,7 @@ export const data = [
         "video": "GonrcDal3QU",
         "link": "https://hellomsi.vercel.app/bc4689bb305d3e87cedb54eee6012f65a6c560117cb76a761dd45e5a3195d2df"
     }, {
-        "id": "https://hellomsi.vercel.app/d22434e679eabb387dbac7200b852318476015cbf1a0ecd84778faab94097bfc",
+        "id": "d22434e679eabb387dbac7200b852318476015cbf1a0ecd84778faab94097bfc",
         "roepnaam": "Guus",
         "video": "wUHBoNOmGzs",
         "link": "https://hellomsi.vercel.app/https://hellomsi.vercel.app/d22434e679eabb387dbac7200b852318476015cbf1a0ecd84778faab94097bfc"
