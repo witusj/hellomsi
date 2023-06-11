@@ -6,7 +6,7 @@ import Toolbar from '@material-ui/core/Toolbar';
 import Box from '@material-ui/core/Box';
 import ExtensionIcon from '@material-ui/icons/Extension';
 import BeachAccessIcon from '@material-ui/icons/BeachAccess';
-import EmojiNatureSharpIcon from '@mui/icons-material/EmojiNatureSharp';
+import EmojiNatureIcon from '@mui/icons-material/EmojiNature';
 import WbSunnyIcon from '@material-ui/icons/WbSunny';
 import { makeStyles } from '@material-ui/styles';
 import Link from 'next/link'
@@ -112,7 +112,7 @@ const Page = ({ user }) => {
                                 <Link href="https://bkmoodle.aoohan.nl/course/view.php?id=513" color="primary"><a>Moodle</a></Link> is de leeromgeving van de HAN. Je kunt een account aanmaken en je verdiepen in de leeromgeving van MSI (deze is nog wel onder constructie).
                             </li>
                             <li className={classes.listitem}>
-                                Je hebt een laptop nodig. Neem die altijd mee en zorg dat je de juiste software hebt geïnstalleerd (zie onderstaande instructies en gedurende het traject). In de eerste sessies helpen we je met de installatie hiervan.
+                                Je hebt een laptop nodig. Neem die altijd mee en zorg dat je de juiste software hebt geïnstalleerd (instructies volgen). In de eerste sessies helpen we je met de installatie hiervan.
                             </li>
                             <li className={classes.listitem}>
                                 Maak een account aan bij <Link href="https://github.com/" color="primary"><a>Github</a></Link> en stuur je usernaam door aan Witek ten Hove (witek.tenhove@han.nl).
