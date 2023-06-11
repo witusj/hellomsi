@@ -76,7 +76,7 @@ const Page = ({ user }) => {
                 <Box>
                     <Typography variant="h6">
                         <p>
-                            Op woensdag 1 februari 2023 gaan we van start met de Minor Smart Industry (MSI). We zijn blij dat jij en zoveel medestudenten jullie hebben aangemeld. Van harte welkom!
+                            Op woensdag 30 augustus 2023 gaan we van start met de Minor Smart Industry (MSI). We zijn blij dat jij en zoveel medestudenten jullie hebben aangemeld. Van harte welkom!
                         </p>
                     </Typography>
                     <Typography variant="body1">
@@ -88,9 +88,9 @@ const Page = ({ user }) => {
                                 De naam van je klas is <Box fontWeight='fontWeightMedium' display='inline'>BKN-M06</Box>.
                             </li>
                             <li className={classes.listitem}>
-                                We starten op <Box fontWeight='fontWeightMedium' display='inline'>woensdag 1 februari om 9.00 uur in de Meshallen, Nieuweweg 240 in Wijchen</Box>. In de ochtend zal een kickoffsessie plaatsvinden met o.a. een presentatie van onze lector Smart Business, Maarten van Gils. De lunch zal door MSI worden verzorgd. De middag is gereserveerd voor de eerst workshop vanuit Smart Business.
+                                We starten op <Box fontWeight='fontWeightMedium' display='inline'>woensdag 30 augustus om 9.00 uur in de Meshallen, Nieuweweg 240 in Wijchen</Box>. In de ochtend zal een kickoffsessie plaatsvinden met o.a. een presentatie van onze lector Smart Business, Maarten van Gils. De lunch zal door MSI worden verzorgd. De middag is gereserveerd voor de eerst workshop vanuit Smart Business.
 
-                                Op donderdag 2 februari zal van 11 tot 16u op de HAN in Nijmegen (zie rooster voor exacte locatie) de eerste workshop Smart Technology worden gegeven. De laatste workshop, Smart Connection, in die week vindt plaats op vrijdag 3 februari op de HAN in Nijmegen, gedurende de hele dag.
+                                Op donderdag 31 augustus zal van 11 tot 16u op de HAN in Nijmegen (zie rooster voor exacte locatie) de eerste workshop Smart Technology worden gegeven. De laatste workshop, Smart Connection, in die week vindt plaats op vrijdagochtend 1 september op de HAN in Nijmegen, gedurende de hele dag.
                                 <Box className={classes.mediabox}>
                                     <Map />
                                 </Box>
@@ -99,11 +99,11 @@ const Page = ({ user }) => {
                                 De eerste 6 weken zijn er vanuit de 4 leerlijnen, workshops gepland op zo’n 3 dagen per week. De workshops gaan over Smart Business, Smart Connection, Smart Technology en Smart Me. Deze 6 weken ben je intensief aan het studeren (zo’n 32 uur, afhankelijk van je voorkennis en talent). In deze weken toon je aan dat je gemotiveerd en geschikt bent om voor één van onze opdrachtgevers met een project aan de slag te gaan. In je rooster zie je deze leerlijnen als volgt terug: MSI1A.9: Smart Me, MSI2A.9: Smart Connection, MSI3A.9: Smart Technology, MSI4A.9: Smart Business en MSI5A.9: Smart Project.
                             </li>
                             <li className={classes.listitem}>
-                                Op <Box fontWeight='fontWeightMedium' display='inline'>woensdagochtend 8 februari 2023</Box> maak je kennis met de opdrachtgevers en hun vraagstukken.
+                                Op <Box fontWeight='fontWeightMedium' display='inline'>woensdagochtend 6 september 2023</Box> maak je kennis met de opdrachtgevers en hun vraagstukken.
                                 Na afronding van de reeks workshops ga je in groepen van 2-3 studenten voor een periode van 12 weken een opdracht doen bij een bedrijf. We verwachten dat je daar 4 dagen in de week aan werkt en 1 dag per week zal er nog een workshop gegeven worden, kan er een bedrijfsbezoek plaatsvinden en is er ruimte voor begeleiding/ intervisie.
                             </li>
                             <li className={classes.listitem}>
-                                <EmojiNatureIcon color="error" fontSize="large" /> De voorjaarsvakantie is van 20 tot en met 24 februari en de meivakantie van 1 tot en met 5 mei.
+                                <EmojiNatureIcon color="error" fontSize="large" /> De herfstvakantie is van 16 - 20 oktober 2023 en de kerstvakantie van 25 december 2023 - 5 januari 2024.
                             </li>
                             <li className={classes.listitem}>
                                 Door te werken aan het project en je voor te bereiden op en actief deel te nemen aan de trainingen, workshops, bedrijfsbezoeken, intervisies e.d. kun je aantonen dat je je ontwikkeld hebt en voldoet aan de competenties. In een smart portfolio (website) leg je je bewijzen vast. Zonder bewijs kunnen we de competenties niet aftoetsen en dus geen studiepunten verlenen.
