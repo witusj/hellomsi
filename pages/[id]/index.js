@@ -103,7 +103,7 @@ const Page = ({ user }) => {
                                 Na afronding van de reeks workshops ga je in groepen van 2-3 studenten voor een periode van 12 weken een opdracht doen bij een bedrijf. We verwachten dat je daar 4 dagen in de week aan werkt en 1 dag per week zal er nog een workshop gegeven worden, kan er een bedrijfsbezoek plaatsvinden en is er ruimte voor begeleiding/ intervisie.
                             </li>
                             <li className={classes.listitem}>
-                                <EmojiNatureSharpIcon color="error" fontSize="large" /> De herfstvakantie is van 16 - 20 oktober 2023 en de kerstvakantie van 25 december 2023 - 5 januari 2024.
+                                <EmojiNatureIcon color="error" fontSize="large" /> De herfstvakantie is van 16 - 20 oktober 2023 en de kerstvakantie van 25 december 2023 - 5 januari 2024.
                             </li>
                             <li className={classes.listitem}>
                                 Door te werken aan het project en je voor te bereiden op en actief deel te nemen aan de trainingen, workshops, bedrijfsbezoeken, intervisies e.d. kun je aantonen dat je je ontwikkeld hebt en voldoet aan de competenties. In een smart portfolio (website) leg je je bewijzen vast. Zonder bewijs kunnen we de competenties niet aftoetsen en dus geen studiepunten verlenen.
