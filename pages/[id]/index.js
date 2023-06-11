@@ -6,7 +6,7 @@ import Toolbar from '@material-ui/core/Toolbar';
 import Box from '@material-ui/core/Box';
 import ExtensionIcon from '@material-ui/icons/Extension';
 import BeachAccessIcon from '@material-ui/icons/BeachAccess';
-import EmojiNatureIcon from '@mui/icons-material/EmojiNature';
+import EmojiNatureIcon from '@material-ui/icons/EmojiNature';
 import WbSunnyIcon from '@material-ui/icons/WbSunny';
 import { makeStyles } from '@material-ui/styles';
 import Link from 'next/link'
