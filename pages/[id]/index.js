@@ -153,7 +153,7 @@ const Page = ({ user }) => {
                             <p>
                                 Jouw opdracht luidt om de eerste koppelingen te gaan leggen. Wat is de betekenis van jouw stukje voor het grotere geheel? Welke relaties met andere elementen binnen Smart Industry kun je ontdekken? Werk je eerste Smart Industry story uit en plaats die op het <Link href="https://bkmoodle.aoohan.nl/mod/forum/view.php?id=31972" color="primary"><a target="_blank">forum</a></Link>.
 
-                                Als je wilt kun je ook een video maken en die op YouTube plaatsen. Deel dan de link naar de video op het forum.
+                                Als je wilt, kun je ook een video maken en die op YouTube plaatsen. Deel dan de link naar de video op het forum.
 
                                 Samenwerken wordt aangemoedigd! Zoek elkaar op of nodig anderen uit via Moodle en help elkaar om de eerste stappen te zetten. We zijn benieuwd naar jullie verhalen!
                             </p>
