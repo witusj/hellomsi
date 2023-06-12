@@ -136,5 +136,11 @@ export const data = [
         "roepnaam": "Tomas",
         "video": "wYPNC64hMZU",
         "link": "https://hellomsi.vercel.app/868df465194a946de100afa849d78cf3fb8915b0affcd1cc5d20301ecb2e56ba"
+    },
+    {
+        "id": "a13cec98277ae2639061dfd435dd9f0e103119e63d4eefd354d6f8229f276264",
+        "roepnaam": "Sander",
+        "video": "mpD4SiOtLxU",
+        "link": "https://hellomsi.vercel.app/a13cec98277ae2639061dfd435dd9f0e103119e63d4eefd354d6f8229f276264"
     }
 ]
