@@ -109,19 +109,19 @@ const Page = ({ user }) => {
                                 Door te werken aan het project en je voor te bereiden op en actief deel te nemen aan de trainingen, workshops, bedrijfsbezoeken, intervisies e.d. kun je aantonen dat je je ontwikkeld hebt en voldoet aan de competenties. In een smart portfolio (website) leg je je bewijzen vast. Zonder bewijs kunnen we de competenties niet aftoetsen en dus geen studiepunten verlenen.
                             </li>
                             <li className={classes.listitem}>
-                                <Link href="https://bkmoodle.aoohan.nl/course/view.php?id=535" color="primary"><a>Moodle</a></Link> is de leeromgeving van de HAN. Je kunt een account aanmaken en je verdiepen in de leeromgeving van MSI (deze is nog wel onder constructie).
+                                <Link href="https://bkmoodle.aoohan.nl/course/view.php?id=535" color="primary"><a target="_blank">Moodle</a></Link> is de leeromgeving van de HAN. Je kunt een account aanmaken en je verdiepen in de leeromgeving van MSI (deze is nog wel onder constructie).
                             </li>
                             <li className={classes.listitem}>
                                 Je hebt een laptop nodig. Neem die altijd mee en zorg dat je de juiste software hebt geïnstalleerd (instructies volgen). In de eerste sessies helpen we je met de installatie hiervan.
                             </li>
                             <li className={classes.listitem}>
-                                Maak een account aan bij <Link href="https://github.com/" color="primary"><a>Github</a></Link> en stuur je usernaam door aan Witek ten Hove (witek.tenhove@han.nl).
+                                Maak een account aan bij <Link href="https://github.com/" color="primary"><a target="_blank">Github</a></Link> en stuur je usernaam door aan Witek ten Hove (witek.tenhove@han.nl).
                             </li>
                             <li className={classes.listitem}>
-                                Mocht je je alvast willen verdiepen in de onderwerpen die behandeld zullen worden, lees bijvoorbeeld over IoT, VR/AR, big data e.d. via McKinsey, HBR, Forbes, Gartner, etc. Meer over AI lees je via deze <Link href="https://www.ai-cursus.nl/" color="primary"><a>link</a></Link>. Maak in ieder geval de opdracht die we hieronder hebben toegevoegd.
+                                Mocht je je alvast willen verdiepen in de onderwerpen die behandeld zullen worden, lees bijvoorbeeld over IoT, VR/AR, big data e.d. via McKinsey, HBR, Forbes, Gartner, etc. Meer over AI lees je via deze <Link href="https://www.ai-cursus.nl/" color="primary"><a target="_blank">link</a></Link>. Maak in ieder geval de opdracht die we hieronder hebben toegevoegd.
                             </li>
                             <li className={classes.listitem}>
-                                Een student van een vorige lichting (Benno Schuuring) heeft op LinkedIn een alumni groep aangemaakt. Meld je <Link href="https://www.linkedin.com/groups/13661379/" color="primary"><a>hier</a></Link> aan.
+                                Een student van een vorige lichting (Benno Schuuring) heeft op LinkedIn een alumni groep aangemaakt. Meld je <Link href="https://www.linkedin.com/groups/13661379/" color="primary"><a target="_blank">hier</a></Link> aan.
                             </li>
                         </ol>
                         <p>
@@ -151,7 +151,7 @@ const Page = ({ user }) => {
                                 Het eerste puzzelstukje vind je hieronder (de video). Deze krijg je van ons - een cadeautje. Maar let op! Vanaf nu verwachten we dat je zelf puzzelstukjes gaat verzamelen en aan elkaar knoopt. Dit noemen we de Smart Journey. Zoals een echte puzzel heeft jouw Smart Journey geen begin en geen einde. Het onderstaande kan een hoekstukje zijn of het midden en je kunt kiezen om eerst de randjes te doen of juist van binnen naar buiten te werken.
                             </p>
                             <p>
-                                Jouw opdracht luidt om de eerste koppelingen te gaan leggen. Wat is de betekenis van jouw stukje voor het grotere geheel? Welke relaties met andere elementen binnen Smart Industry kun je ontdekken? Werk je eerste Smart Industry story uit en plaats die op het <Link href="https://bkmoodle.aoohan.nl/mod/forum/view.php?id=31972" color="primary"><a>forum</a></Link>.
+                                Jouw opdracht luidt om de eerste koppelingen te gaan leggen. Wat is de betekenis van jouw stukje voor het grotere geheel? Welke relaties met andere elementen binnen Smart Industry kun je ontdekken? Werk je eerste Smart Industry story uit en plaats die op het <Link href="https://bkmoodle.aoohan.nl/mod/forum/view.php?id=31972" color="primary"><a target="_blank">forum</a></Link>.
 
                                 Als je wilt kun je ook een video maken en die op YouTube plaatsen. Deel dan de link naar de video op het forum.
 
