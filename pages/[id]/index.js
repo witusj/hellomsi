@@ -90,7 +90,7 @@ const Page = ({ user }) => {
                             <li className={classes.listitem}>
                                 We starten op <Box fontWeight='fontWeightMedium' display='inline'>woensdag 30 augustus om 9.00 uur in de Meshallen, Nieuweweg 240 in Wijchen</Box>. In de ochtend zal een kickoffsessie plaatsvinden met o.a. een presentatie van onze lector Smart Business, Maarten van Gils. De lunch zal door MSI worden verzorgd. De middag is gereserveerd voor de eerst workshop vanuit Smart Business.
 
-                                Op donderdag 31 augustus zal van 11 tot 16u op de HAN in Nijmegen (zie rooster voor exacte locatie) de eerste workshop Smart Technology worden gegeven. De laatste workshop, Smart Connection, in die week vindt plaats op vrijdagochtend 1 september op de HAN in Nijmegen, gedurende de hele dag.
+                                Op donderdag 31 augustus zal van 11 tot 16u op de HAN in Nijmegen (zie rooster voor exacte locatie) de eerste workshop Smart Technology worden gegeven. De laatste workshop, Smart Connection, in die week vindt plaats op vrijdagochtend 1 september op de HAN in Nijmegen.
                                 <Box className={classes.mediabox}>
                                     <Map />
                                 </Box>
@@ -125,7 +125,7 @@ const Page = ({ user }) => {
                             </li>
                         </ol>
                         <p>
-                            <Box border={1} bgcolor="primary.main" color="white" borderRadius={16} padding={2} fontSize={22} textAlign="center">Tot binnenkort!</Box>
+                            <Box border={1} bgcolor="primary.main" color="white" borderRadius={16} padding={2} fontSize={22} textAlign="center">Een mooie zomer en tot binnenkort!</Box>
                         </p>
                     </Typography>
                 </Box>
